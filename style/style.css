@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#topnav {
+  height: 50px;
+  width: 100%;
+  background-color: #5c6151;
+}
+.main-navbar {
+  height: 190px;
+  background-color: #4b1402;
+  width: 100%;
+}
+.top-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 50px;
+}
+.top-navbar div {
+  font-size: 20px;
+  color: white;
+}
+.contact-information {
+  width: 300px;
+  font-size: 16px !important;
+}
+.button {
+  padding-right: 50px;
+}
+
+button {
+  padding-top: 8px;
+  background-color: #af2222;
+  color: white;
+  padding-bottom: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+button:hover {
+  background-color: green;
+}
+/* 
+npm init .
+
+
+*/
